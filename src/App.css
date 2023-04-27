@@ -1,0 +1,33 @@
+:root {
+	--color-purple: hsl(259, 100%, 65%);
+	--light-grey: hsl(0, 0%, 86%);
+	--smokey-grey: hsl(0, 1%, 44%);
+	--dark: hsl(0, 0%, 8%);
+	--white: hsl(0, 0%, 100%);
+	--off-white: hsl(0, 0%, 94%);
+
+	--error: hsl(0, 100%, 66%);
+
+	--fw-reg: 400;
+	--fw-md: 500;
+	--fw-italic-bold: 800;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: var(--fw-reg);
+	font-size: 2rem;
+	color: var(--dark);
+	background-color: var(--off-white);
+}
+
+main {
+	max-width: 400px;
+	margin: 5rem 1rem;
+}
+
+.form-section {
+	background-color: var(--white);
+	padding: 2rem;
+	border-bottom-right-radius: 50%;
+}
