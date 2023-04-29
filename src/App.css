@@ -22,12 +22,24 @@ body {
 }
 
 main {
-	max-width: 400px;
-	margin: 5rem 1rem;
+	width: 100%;
+	margin: 5rem 2rem;
 }
 
 .form-section {
 	background-color: var(--white);
 	padding: 2rem;
 	border-bottom-right-radius: 50%;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+	main {
+		width: 60%;
+		margin: 5rem auto;
+	}
+
+	.form-section {
+		padding: 2rem;
+	}
 }

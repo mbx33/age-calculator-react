@@ -82,6 +82,7 @@ function App() {
 							id="day"
 							maxLength={2}
 							onChange={handleChange}
+							placeholder="DD"
 						/>
 						{error && <p className="error">required</p>}
 					</div>
@@ -93,6 +94,7 @@ function App() {
 							id="month"
 							maxLength={2}
 							onChange={handleChange}
+							placeholder="MM"
 						/>
 						{error && <p className="error">required</p>}
 					</div>
@@ -104,6 +106,7 @@ function App() {
 							id="year"
 							maxLength={4}
 							onChange={handleChange}
+							placeholder="YYYY"
 						/>
 						{error && <p className="error">required</p>}
 					</div>
